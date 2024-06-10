@@ -66,10 +66,11 @@
 
 // @section machine
 
-// Choose the name from boards.h that matches your setup
+// Choose the name of the motherboard that matches your configuration
 #ifndef MOTHERBOARD
-  #define MOTHERBOARD BOARD_RAMPS_14_EFB
+  #define MOTHERBOARD BOARD_CREALITY_V4_2_7
 #endif
+
 
 /**
  * Select the serial port on the board to use for communication with the host.
